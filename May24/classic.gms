@@ -2,7 +2,7 @@ option limrow=100;
 * only need to compute for N-1 astronauts, since remaining astronaut claims the leftovers
 SET A Astronaut labels /A1*A2/
     N unique endpoint outcomes (Nflips plus 1) /1*5/
-    K /K1*K1000/;
+    K /K1*K100/;
 
 parameter Nflips number of flips;
 Nflips = card(N)-1;
