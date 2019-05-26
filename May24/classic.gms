@@ -32,9 +32,9 @@ p.LO=0.001;
 * optimization stuff
 option minlp=couenne
 option optcr=0, optca=0;
-model this /all/ ;
-this.optfile=1;
-solve this using minlp minimizing z;
+model coins /all/ ;
+coins.optfile=1;
+solve coins using minlp minimizing z;
 
 parameter result;
 * check that probability for each astronaut = 1/3 should be the same as the outcome equation level
