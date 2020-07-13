@@ -1,6 +1,6 @@
 * 576 Riddler from 10 July, 2020.
 *  '5 rings' as a set covering problem
-* Find all the ways the 5 rings can be arranged on the column
+* Find all the ways the 5 rings can be arranged on a tapered column
 SET position top to bottom /Ptop,P2,P3,P4,Pbottom/
     ring /red, yellow, green, blue, purple/
     ALIAS (ring,c2)
