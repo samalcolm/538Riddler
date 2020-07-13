@@ -7,11 +7,11 @@ SET position top to bottom /Ptop,P2,P3,P4,Pbottom/
 
 * X takes a value of 1 if (ring) is in (position), and zero otherwise
 binary variable X
-variable z;
 
 equations obj, positions, rings, gravity, onepiece;
 
 * A dummy objective. Does nothing. Move along.
+variable z;
 obj.. z =E= 1;
 
 * each ring can only be in a position that is big enough for it to fit
