@@ -8,7 +8,6 @@ robin = function(){
     r1 = runif(1)
     if (r1 < r0) score = score + 1 
     else done = TRUE
-  #    x1 = y1
 }
   score = score + 1 
 }
