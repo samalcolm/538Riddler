@@ -1,3 +1,5 @@
+* 538Riddler solution January 15, 2021
+
 SET F prime factor /two, three, five, seven/
     C column /first, second, third/
     R row /N1*N8/
@@ -19,8 +21,8 @@ row8    3           1
 TABLE column(C,F) column total prime factors 
         two  three  five  seven
 first    6     4     1      3
-second   7     0     2      2
-third    1     4     0      3
+second   7           2      2
+third    1     4            3
 
 variable z;
 integer variable d;
